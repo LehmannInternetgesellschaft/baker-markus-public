@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bäcker Markus - Dein Bäcker von nebenan</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="cupcake-icon.png" type="image/x-icon">
+</head>    
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <nav class="navbar">
+                <a href="#" class="nav-branding">Bäcker Markus</a>
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Start</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="chronik.html" class="nav-link">Chronik</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="bestellen.html" class="nav-link">Bestellen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Auszeichnungen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Anfahrt</a>
+                        </li>
+                    </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </header>
+        <article class="main">
+            <p>
+                <h1>Unsee Torten für Sie!</h1>
+                <br>
+            </p>
+                <div class="image-container">
+                    <img class="image"  src="pie-1.jpg" draggable="false">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Unser gesunde Eierkuchentorte - perfekt für jeden Anlass</p>
+                            <p>6,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="image"  src="pie-2.jpg" draggable="false">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Voll mit exotischem Obst: Unsere Obst-Schoko-Nusstorte</p>
+                            <p>11,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="image"  src="pie-3.jpg" draggable="false">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Für einen ganz besonderen Anlass: Unsere Sahnetorte mit Schokoblumen </p>
+                            <p>19,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="image"  src="pie-4.jpg" draggable="false">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Glitzerne Torte für Geburtstage: Donuttorte ohne Boden</p>
+                            <p>16,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="image"  src="pie-5.jpg" draggable="false">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Für unseren veganen Genießer: Nusstorte mit saftiger Cremefüllung</p>
+                            <p>8,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img class="image"  src="pie-6.jpg" draggable="false">
+                    <div class="overlay">
+                        <div class="content">
+                            <p>Unsere beliebte Waldbeerentorte mit Hawaiiakzenten</p>
+                            <p>5,99€</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="container-form">
+                    <h1>Jetzt Bestellen</h1>
+                    <p>Bitte bedenke, dass Toten mindestens 4 Tage im Vorraus bestellt werden müssen.</p>
+                        <form action="https://formsubmit.co/blog2023.0001@gmail.com" method="POST">
+                            <div>
+                                <label for="pie">Torte</label>
+                                    <select name="pie" required>
+                                        <option disabled selected>Wähle eine Torte aus!</option>
+                                        <option>Eierkuchentorte</option>
+                                        <option>Obst-Schoko-Nusstorte</option>
+                                        <option>Sahnetorte mit Schokoblumen</option>
+                                        <option>Donuttorte</option>
+                                        <option>vegane Nusstorte</option>
+                                        <option>Waldbeerentorte Hawaii</option>
+                                    </select>
+                            </div>
+                            <div>
+                                <label for="name">Name</label>
+                                    <input type="text" name="name" placeholder="Dein Name" required>
+                            </div>
+                            <div>
+                                <label for="email">E-Mail</label>
+                                    <input type="text" name="email" placeholder="Deine Email">
+                            </div>
+                            <div>
+                                <label for="telefon">Telefonnummer</label>
+                                    <input type="text" name="telefon" placeholder="Dein Telefonnummer" required>
+                            </div>
+                            <div>
+                                <label for="date">Abholtermin</label>
+                                    <input type="date" name="date" required>
+                            </div>
+                            <div>
+                                <label for="message">Bemerkungen & Fragen</label>
+                                    <textarea type="message" name="notes" placeholder="Bemerkungen und Fragen"></textarea>
+                            </div>
+                            <button type="submit">Bestellen</button>
+                        </form>
+
+                </div>
+        </article>
+
+        
+        <footer>
+            <h1>Anfahrt</h1>
+                <div class="Karte-gross">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2433.520820896922!2d13.472759991935487!3d52.41536019992567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a845d803ac5753%3A0xc99fdad05cd58c62!2sNeumann&#39;s%20kleine%20Backstube!5e0!3m2!1sde!2sus!4v1700970498982!5m2!1sde!2sus" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+                <div class="Karte-klein">
+                    <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4866.636993867454!2d13.470854648949006!3d52.41902653813945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a845d803ac5753%3A0xc99fdad05cd58c62!2sNeumann&#39;s%20kleine%20Backstube!5e0!3m2!1sde!2sus!4v1700976220010!5m2!1sde!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+                    <br>
+                <p>Copyright ©2023 Markus Bäcker - Bäckerei mit Leidenschaft</p>
+                <p>Diese Website ist ein Produkt der Lehmann Internet Gesellschaft. Jegliche Verwendung der Grafiken, Texten sowie des verwendeten Codes ist unzulässig und wird bei Verstoß zur Anzeige gebracht.</p>
+        </footer>
+
+    </div>
+            <script src="main.js"></script>
+</body>
+</html>
